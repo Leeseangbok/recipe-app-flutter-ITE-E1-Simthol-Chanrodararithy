@@ -265,30 +265,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.3"
-  dio:
-    dependency: "direct main"
-    description:
-      name: dio
-      sha256: d90ee57923d1828ac14e492ca49440f65477f4bb1263575900be731a3dac66a9
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.9.0"
-  dio_http_formatter:
-    dependency: "direct main"
-    description:
-      name: dio_http_formatter
-      sha256: "05e3f7c839f291acc9bd1df33d5314905da677375007d71437914ed66c8823be"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.3.1"
-  dio_web_adapter:
-    dependency: transitive
-    description:
-      name: dio_web_adapter
-      sha256: "7586e476d70caecaf1686d21eee7247ea43ef5c345eab9e0cc3583ff13378d78"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.1"
   fake_async:
     dependency: transitive
     description:
@@ -368,16 +344,8 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  freezed:
-    dependency: "direct dev"
-    description:
-      name: freezed
-      sha256: "13065f10e135263a4f5a4391b79a8efc5fb8106f8dd555a9e49b750b45393d77"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.2.3"
   freezed_annotation:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: freezed_annotation
       sha256: "7294967ff0a6d98638e7acb774aac3af2550777accd8149c90af5b014e6d44d8"
@@ -400,14 +368,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.3"
-  go_router:
-    dependency: "direct main"
-    description:
-      name: go_router
-      sha256: c92d18e1fe994cb06d48aa786c46b142a5633067e8297cff6b5a3ac742620104
-      url: "https://pub.dev"
-    source: hosted
-    version: "17.0.0"
   graphs:
     dependency: transitive
     description:
@@ -528,14 +488,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.2"
-  lean_builder:
-    dependency: transitive
-    description:
-      name: lean_builder
-      sha256: f3ddb3b2c29285a726d739f3eaa4877a2478068f975b51231d032711efbc02d8
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.4"
   lints:
     dependency: transitive
     description:
@@ -544,14 +496,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.1.1"
-  logger:
-    dependency: transitive
-    description:
-      name: logger
-      sha256: a7967e31b703831a893bbc3c3dd11db08126fe5f369b5c648a36f821979f5be3
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.6.2"
   logging:
     dependency: transitive
     description:
@@ -688,14 +632,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.3"
-  protobuf:
-    dependency: transitive
-    description:
-      name: protobuf
-      sha256: "2fcc8a202ca7ec17dab7c97d6b6d91cf03aa07fe6f65f8afbb6dfa52cc5bd902"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.1.0"
   pub_semver:
     dependency: transitive
     description:
@@ -712,22 +648,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.0"
-  retrofit:
-    dependency: "direct main"
-    description:
-      name: retrofit
-      sha256: "84063c18a00d55af41d6b8401edf8473e8c215bd7068ef7ec5e34c60657ffdbe"
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.9.1"
-  retrofit_generator:
-    dependency: "direct dev"
-    description:
-      name: retrofit_generator
-      sha256: "7ec323f3329ad2ca0bcdc96fe02ec7f2486ecfac6cd2d035b03c398ef6f42308"
-      url: "https://pub.dev"
-    source: hosted
-    version: "10.2.0"
   riverpod:
     dependency: transitive
     description:
@@ -864,14 +784,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.0"
-  shimmer_animation:
-    dependency: "direct main"
-    description:
-      name: shimmer_animation
-      sha256: cc7d80bcb41fba5fbf032f4577ac135928ea1536a06f97053067e6ed7760639d
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.2.2+1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -1197,14 +1109,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.6.1"
-  xxh3:
-    dependency: transitive
-    description:
-      name: xxh3
-      sha256: "399a0438f5d426785723c99da6b16e136f4953fb1e9db0bf270bd41dd4619916"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.2.0"
   yaml:
     dependency: transitive
     description:

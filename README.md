@@ -1,17 +1,24 @@
-# recipe_finder_flutter_app
+# Recipe Finder App 🍳
 
-A new Flutter project.
+A Flutter application that allows users to discover recipes, filter by category or cuisine, view detailed cooking instructions, and save their favorite meals locally.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+-   **Daily Suggestion:** Get a random meal recommendation on the home screen.
+-   **Explore Recipes:** Browse recipes filtered by Category (e.g., Seafood, Pasta) or Cuisine (e.g., Italian, Japanese).
+-   **Search Functionality:** Find specific recipes by name.
+-   **Detailed Instructions:** View ingredients, measurements, and step-by-step cooking instructions.
+-   **Video Tutorials:** Direct links to YouTube cooking tutorials.
+-   **Favorites:** Save recipes to your local device (using SQLite) to access them later.
+-   **Onboarding:** A smooth introduction screen for first-time users.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-   **Framework:** [Flutter](https://flutter.dev/)
+-   **State Management:** [Riverpod](https://riverpod.dev/)
+-   **Navigation:** Standard Flutter Navigation
+-   **Networking:** [http](https://pub.dev/packages/http)
+-   **Local Storage:** [sqflite](https://pub.dev/packages/sqflite) (for saving favorites) and [shared_preferences](https://pub.dev/packages/shared_preferences) (for onboarding state).
+-   **UI Components:** Custom chips, hero animations, and skeleton loading states.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# recipe-app-flutter-ITE-E1-Simthol-Chanrodararithy" 
+## 📂 Project Structure
