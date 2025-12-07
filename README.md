@@ -47,56 +47,24 @@ A Flutter application that helps you discover, filter, and save recipes with off
    ```
 
 ## 📂 Project Structure
+
+```text
 lib/
-├── core/
-│   ├── constants/
-│   │   └── api.dart
-│   └── route/
-│       └── routes.dart
-├── data/
-│   ├── local/
-│   │   └── database_helper.dart
-│   ├── model/
-│   │   ├── category.dart
-│   │   └── meal.dart
-│   ├── provider/
-│   │   ├── category_provider.dart
-│   │   ├── favorite_provider.dart
-│   │   └── meal_provider.dart
-│   └── service/
-│       └── api_services.dart
-├── features/
+├── core/                  # Shared resources across the app
+│   ├── constants/         # API endpoints and configuration
+│   └── route/             # Route names and navigation paths
+├── data/                  # Data layer handling APIs and local storage
+│   ├── local/             # SQLite database implementation
+│   ├── model/             # Data models (JSON parsing)
+│   ├── provider/          # Riverpod state providers
+│   └── service/           # HTTP calls and API logic
+├── features/              # Feature-based UI organization
 │   ├── screens/
-│   │   ├── detail/
-│   │   │   ├── widgets/
-│   │   │   │   └── helper_chip.dart
-│   │   │   └── meal_detail_screen.dart
-│   │   ├── explore/
-│   │   │   ├── widgets/
-│   │   │   │   ├── empty.dart
-│   │   │   │   ├── filtered_chip.dart
-│   │   │   │   ├── meal_chip.dart
-│   │   │   │   └── meta_chip.dart
-│   │   │   └── explore_screen.dart
-│   │   ├── favorite/
-│   │   │   ├── widgets/
-│   │   │   │   ├── empty.dart
-│   │   │   │   ├── favorite_item.dart
-│   │   │   │   └── mini_chip.dart
-│   │   │   └── favorite_screen.dart
-│   │   ├── home/
-│   │   │   ├── widgets/
-│   │   │   │   ├── card_skeleton.dart
-│   │   │   │   ├── chip.dart
-│   │   │   │   ├── error.dart
-│   │   │   │   ├── header.dart
-│   │   │   │   ├── hero_card.dart
-│   │   │   │   ├── meal_card.dart
-│   │   │   │   └── mini_chip.dart
-│   │   │   └── home_screen.dart
-│   │   └── onboarding/
-│   │       └── onboarding_screen.dart
-│   └── widgets/
-│       └── bottom_nav.dart
-├── app.dart
-└── main.dart
+│   │   ├── detail/        # Meal details view
+│   │   ├── explore/       # Search and filtering screen
+│   │   ├── favorite/      # Offline favorites screen
+│   │   ├── home/          # Main dashboard
+│   │   └── onboarding/    # Intro slides
+│   └── widgets/           # Global reusable widgets (e.g., BottomNavBar)
+├── app.dart               # App configuration (Theme, Routes)
+└── main.dart              # Entry point
